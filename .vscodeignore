@@ -1,0 +1,6 @@
+.git/**
+.github/**
+scripts/**
+preview/**
+images/*.svg
+**/*.map

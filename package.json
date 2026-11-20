@@ -1,0 +1,52 @@
+{
+  "name": "frutiger-nostalgia",
+  "displayName": "Frutiger Nostalgia",
+  "description": "Glassy sky-blue VS Code themes inspired by Windows Vista Aero and the Frutiger Aero era. Includes Aero Glass (dark) and Aero Sky (light).",
+  "version": "1.0.0",
+  "publisher": "bitznbrewz",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0f2a3e",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitznbrewz/frutiger-nostalgia"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "frutiger aero",
+    "windows vista",
+    "aero",
+    "y2k",
+    "blue",
+    "glass",
+    "dark",
+    "light"
+  ],
+  "scripts": {
+    "build": "node scripts/build-themes.mjs",
+    "check": "node scripts/build-themes.mjs --check"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aero Glass",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aero-glass-color-theme.json"
+      },
+      {
+        "label": "Aero Sky",
+        "uiTheme": "vs",
+        "path": "./themes/aero-sky-color-theme.json"
+      }
+    ]
+  }
+}

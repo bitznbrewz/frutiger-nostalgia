@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="orb" cx="50%" cy="62%" r="60%">
+      <stop offset="0" stop-color="#7fe7ff"/>
+      <stop offset="0.45" stop-color="#1f9be0"/>
+      <stop offset="0.85" stop-color="#0b4f8f"/>
+      <stop offset="1" stop-color="#062e57"/>
+    </radialGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="100%" r="55%">
+      <stop offset="0" stop-color="#b6ff7a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#b6ff7a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8f4ff"/>
+      <stop offset="1" stop-color="#0a3d6e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="118" fill="url(#rim)"/>
+  <circle cx="128" cy="128" r="112" fill="url(#orb)"/>
+  <circle cx="128" cy="128" r="112" fill="url(#glow)"/>
+  <!-- code brackets -->
+  <g fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.96">
+    <path d="M96 92 L60 132 L96 172"/>
+    <path d="M160 92 L196 132 L160 172"/>
+  </g>
+  <path d="M140 84 L116 180" stroke="#c8ff8f" stroke-width="14" stroke-linecap="round"/>
+  <!-- glossy top highlight -->
+  <ellipse cx="128" cy="70" rx="86" ry="52" fill="url(#gloss)"/>
+  <!-- bubbles -->
+  <circle cx="200" cy="58" r="10" fill="#ffffff" fill-opacity="0.35" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2"/>
+  <circle cx="218" cy="86" r="5" fill="#ffffff" fill-opacity="0.35" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.5"/>
+</svg>
